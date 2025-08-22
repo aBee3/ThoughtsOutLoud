@@ -1,0 +1,26 @@
+Node.js v22.13.0
+PS C:\Users\pug5a\projects\Layouts> node script\render.js
+node:internal/deps/undici/undici:13484
+      Error.captureStackTrace(err);
+            ^
+
+TypeError: Failed to parse URL from dataarticles.json
+    at node:internal/deps/undici/undici:13484:13
+    at async renderArticles (C:\Users\pug5a\projects\Layouts\script\render.js:5:22) {
+  [cause]: TypeError: Invalid URL
+      at new URL (node:internal/url:818:25)
+      at new Request (node:internal/deps/undici/undici:9560:25)
+      at fetch (node:internal/deps/undici/undici:10289:25)
+      at fetch (node:internal/deps/undici/undici:13482:10)
+      at fetch (node:internal/bootstrap/web/exposed-window-or-worker:75:12)
+      at renderArticles (C:\Users\pug5a\projects\Layouts\script\render.js:5:28)
+      at Object.<anonymous> (C:\Users\pug5a\projects\Layouts\script\render.js:48:1)
+      at Module._compile (node:internal/modules/cjs/loader:1562:14)
+      at Object..js (node:internal/modules/cjs/loader:1699:10)
+      at Module.load (node:internal/modules/cjs/loader:1313:32) {
+    code: 'ERR_INVALID_URL',
+    input: 'dataarticles.json'
+  }
+}
+
+Node.js v22.13.0
