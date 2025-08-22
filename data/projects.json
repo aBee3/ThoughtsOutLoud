@@ -1,0 +1,16 @@
+[
+  {
+    "title": "ShellArt",
+    "description": "Interactive terminal-based ASCII art tool.",
+    "cover": "images/shellart.jpg",
+    "repo": "https://github.com/you/shellart",
+    "readme": "https://raw.githubusercontent.com/you/shellart/main/README.md"
+  },
+  {
+    "title": "Markdown Gallery",
+    "description": "A clean markdown-to-gallery converter.",
+    "cover": "images/gallery.jpg",
+    "repo": "https://github.com/you/gallery",
+    "readme": "https://raw.githubusercontent.com/you/gallery/main/README.md"
+  }
+]

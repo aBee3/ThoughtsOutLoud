@@ -1,0 +1,72 @@
+[
+    {
+        "category": "Recent",
+        "title": "Article 1",
+        "description": "This is a brief description of Article 1.",
+        "cover": "/images/filler_red.png",
+        "file": "article1.md"
+    },
+    {
+        "category": "Recent",
+        "title": "Article 2",
+        "description": "This is a brief description of Article 2.",
+        "cover": "/images/filler_red.png",
+        "file": "article2.md"
+    },
+    {
+        "category": "Recent",
+        "title": "Article 3",
+        "description": "This is a brief description of Article 3.",
+        "cover": "/images/filler_red.png",
+        "file": "article3.md"
+    },
+    {
+        "category": "Recent",
+        "title": "Article 4",
+        "description": "This is a brief description of Article 4.",
+        "cover": "/images/filler_red.png",
+        "file": "article4.md"
+    },
+    {
+        "category": "Featured",
+        "title": "Article 5",
+        "description": "This is a brief description of Article 5.",
+        "cover": "/images/filler_red.png",
+        "file": "article5.md"
+    },
+    {
+        "category": "Featured",
+        "title": "Article 6",
+        "description": "This is a brief description of Article 6.",
+        "cover": "/images/filler_red.png",
+        "file": "article6.md"
+    },
+    {
+        "category": "Featured",
+        "title": "Article 7",
+        "description": "This is a brief description of Article 7.",
+        "cover": "/images/filler_red.png",
+        "file": "article7.md"
+    },
+    {
+        "category": "Featured",
+        "title": "Article 8",
+        "description": "This is a brief description of Article 8.",
+        "cover": "/images/filler_red.png",
+        "file": "article8.md"
+    },
+    {
+        "category": "Else",
+        "title": "Article 9",
+        "description": "This is a brief description of Article 9.",
+        "cover": "/images/filler_red.png",
+        "file": "article9.md"
+    },
+    {
+        "category": "Else",
+        "title": "Article 10",
+        "description": "This is a brief description of Article 10.",
+        "cover": "/images/filler_red.png",
+        "file": "article10.md"
+    }
+]

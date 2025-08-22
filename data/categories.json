@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Recent",
+        "description": "Latest articles and updates.",
+        "icon": "https://example.com/icons/recent.png"
+    },
+    {
+        "name": "Featured",
+        "description": "Highlighted articles and special features.",
+        "icon": "https://example.com/icons/featured.png"
+    },
+    {
+        "name": "Else",
+        "description": "Miscellaneous articles that don't fit other categories.",
+        "icon": "https://example.com/icons/else.png"
+    },
+    {
+        "name": "Diary",
+        "description": "Older articles that are no longer actively updated.",
+        "icon": "https://example.com/icons/archived.png"
+    }
+]

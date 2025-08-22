@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+body{
+    min-height: 100%;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(226, 153, 165);
+    width: 100%;
+    height: 70px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    padding : 1rem 4.5rem;
+}
+
+.main-content{
+    background-color: rgba(0, 0, 0, 0.848);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner{
+    background-color: purple;
+    height:600px;
+    min-width: 100%;
+}
+
+.nav-bar{
+    background-color: rgb(212, 255, 0);
+    min-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px; /*Este es para el contenido dentreo de la caja*/
+    min-height:100px;
+    min-width:100%;
+    margin:5px;
+    background-color: red;
+    border: 2px solid black;
+    padding: 0.3rem;
+    flex:1;
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    background-color: purple;
+    min-width: 100%;
+    height: 100px;
+}
+
+/*Article holders*/
+.holder{
+    background-color: rgb(83, 137, 137);
+    gap: 3rem; /* I want to evenly space my articles*/
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 4rem ;
+    justify-content: center;
+    flex:1;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 70px;
+    min-height: 400px;
+    flex: 1; /*This thing allows the container to grow*/
+    padding: 2px;
+}
+
+.image-container{
+    min-height: 60%;
+    margin: 2px;
+}
+
+.read-button{
+    background-color: blue;
+    margin-top: auto;
+    margin-left: auto; /* Pushes the third element to the far right */
+}
+
+.read-button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(255, 0, 217);
+}
+
+.more-button{
+    background-color: rgb(55, 215, 31);
+    font-size: medium;
+    margin-top: 1rem;
+    margin-left: auto; /* Pushes the third element to the far right */
+}
+
+.more-button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(255, 0, 217);
+}
+
+.holder.secondary{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: top;
+    background-color: pink;
+}
+
+.image-container.big{
+    min-width: 60%;
+    min-height: 28rem;
+    background-color: rgb(217, 255, 0);
+}
+
+.quote{
+    position: relative;
+    min-width: 20%;
+    justify-content: center;
+    align-items: right;
+    padding: 2px;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.quote-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quote {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-left: 4px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h1.quote{
+    display: flex;
+    color: blue;
+    padding: 5px;
+    text-align: right;
+}
